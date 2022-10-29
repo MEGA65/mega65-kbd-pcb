@@ -4,7 +4,7 @@
     (thickness 1.6)
   )
 
-  (paper "A4")
+  (paper "A3")
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
@@ -344,22 +344,22 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp 1ef489b1-7ff9-404d-814c-c9e1dbddc827)
-    (at 282.702 -23.876)
+    (at 247.909 32.136 90)
     (descr "Through hole straight pin header, 2x05, 2.54mm pitch, double rows")
     (tags "Through hole pin header THT 2x05 2.54mm double row")
     (property "Sheetfile" "mega65-kbd.kicad_sch")
     (property "Sheetname" "")
     (path "/27564ffc-d2cc-40fd-b625-91750e2cd8be")
     (attr through_hole)
-    (fp_text reference "J1" (at 1.27 -2.33) (layer "F.SilkS")
+    (fp_text reference "J1" (at 1.27 -2.33 90) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8132a8ed-6956-4d77-991e-091e466ab49a)
     )
-    (fp_text value "Conn_02x05_Odd_Even" (at 1.27 12.49) (layer "F.Fab")
+    (fp_text value "Conn_02x05_Odd_Even" (at 1.27 12.49 90) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3b2e9159-10ed-4ff1-b765-e0ff3a2045a7)
     )
-    (fp_text user "${REFERENCE}" (at 1.27 5.08 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 1.27 5.08) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7c2195f7-6779-4590-b3ac-8c794a68c78b)
     )
@@ -380,25 +380,25 @@
     (fp_line (start -1.27 0) (end 0 -1.27) (layer "F.Fab") (width 0.1) (tstamp 93c4a588-affb-4a42-9be2-7bfeeb6a74e0))
     (fp_line (start 0 -1.27) (end 3.81 -1.27) (layer "F.Fab") (width 0.1) (tstamp ac73e4de-e4c2-49f8-8e5e-5dff0d7e8c89))
     (fp_line (start 3.81 -1.27) (end 3.81 11.43) (layer "F.Fab") (width 0.1) (tstamp e157e0bb-703a-465a-ac7c-e10c679eeb94))
-    (pad "1" thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad "1" thru_hole rect (at 0 0 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 7 "GND") (pinfunction "Pin_1") (pintype "passive") (tstamp 67e48d2a-4e7d-47dd-a583-fa0ab7200b54))
-    (pad "2" thru_hole oval (at 2.54 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad "2" thru_hole oval (at 2.54 0 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 8 "+3V3") (pinfunction "Pin_2") (pintype "passive") (tstamp ffa8774d-7c70-4ea1-b9d3-917e2271949e))
-    (pad "3" thru_hole oval (at 0 2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad "3" thru_hole oval (at 0 2.54 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 9 "unconnected-(J1-Pad3)") (pinfunction "Pin_3") (pintype "passive+no_connect") (tstamp 103e0b2f-ccc3-46d2-8d8d-fe454059e232))
-    (pad "4" thru_hole oval (at 2.54 2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad "4" thru_hole oval (at 2.54 2.54 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 10 "unconnected-(J1-Pad4)") (pinfunction "Pin_4") (pintype "passive+no_connect") (tstamp 8ba9d045-7d6a-40d1-916f-3dc62355744a))
-    (pad "5" thru_hole oval (at 0 5.08) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad "5" thru_hole oval (at 0 5.08 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 11 "unconnected-(J1-Pad5)") (pinfunction "Pin_5") (pintype "passive+no_connect") (tstamp 5ae368cc-b874-4c3e-bde0-76a32d2ae6a2))
-    (pad "6" thru_hole oval (at 2.54 5.08) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad "6" thru_hole oval (at 2.54 5.08 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 12 "unconnected-(J1-Pad6)") (pinfunction "Pin_6") (pintype "passive+no_connect") (tstamp 0c7f4ac6-0e65-478a-b0fa-4f1815dc4135))
-    (pad "7" thru_hole oval (at 0 7.62) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad "7" thru_hole oval (at 0 7.62 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 13 "unconnected-(J1-Pad7)") (pinfunction "Pin_7") (pintype "passive+no_connect") (tstamp c01ef74d-0ffc-4777-8201-af5cb29a71de))
-    (pad "8" thru_hole oval (at 2.54 7.62) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad "8" thru_hole oval (at 2.54 7.62 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 14 "/SDA") (pinfunction "Pin_8") (pintype "passive") (tstamp d7fd1adb-eb24-4326-8098-0dcb41cd0360))
-    (pad "9" thru_hole oval (at 0 10.16) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad "9" thru_hole oval (at 0 10.16 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 15 "/SCL") (pinfunction "Pin_9") (pintype "passive") (tstamp 83f802f0-8c22-4ed7-bba5-4326bc4f63f1))
-    (pad "10" thru_hole oval (at 2.54 10.16) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad "10" thru_hole oval (at 2.54 10.16 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 7 "GND") (pinfunction "Pin_10") (pintype "passive") (tstamp 8ef8e104-0629-4370-b5a9-d88e792c17f3))
     (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x05_P2.54mm_Vertical.wrl"
       (offset (xyz 0 0 0))
@@ -409,7 +409,7 @@
 
   (footprint "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm" (layer "F.Cu")
     (tedit 5A02F25C) (tstamp 30f3f202-76b9-4e16-957b-73ef88e969b7)
-    (at 257.048 -18.288)
+    (at 118.237 51.562)
     (descr "24-Lead Plastic Shrink Small Outline (SS)-5.30 mm Body [SSOP] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SSOP 0.65")
     (property "Sheetfile" "mega65-kbd.kicad_sch")
@@ -501,7 +501,7 @@
 
   (footprint "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm" (layer "F.Cu")
     (tedit 5A02F25C) (tstamp 357795fb-3f74-4f20-a06d-3b7bcb1c8714)
-    (at 271.526 -20.574)
+    (at 214.503 51.181)
     (descr "24-Lead Plastic Shrink Small Outline (SS)-5.30 mm Body [SSOP] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SSOP 0.65")
     (property "Sheetfile" "mega65-kbd.kicad_sch")
@@ -593,7 +593,7 @@
 
   (footprint "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm" (layer "F.Cu")
     (tedit 5A02F25C) (tstamp 3e2eca40-7fd8-47e3-8122-784206f161b1)
-    (at 229.87 -19.05)
+    (at 305.562 150.749)
     (descr "24-Lead Plastic Shrink Small Outline (SS)-5.30 mm Body [SSOP] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SSOP 0.65")
     (property "Sheetfile" "mega65-kbd.kicad_sch")
@@ -685,7 +685,7 @@
 
   (footprint "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm" (layer "F.Cu")
     (tedit 5A02F25C) (tstamp 43db699c-3c81-4d91-8f22-ffa2e3eff3ae)
-    (at 215.392 -18.796)
+    (at 180.086 149.225)
     (descr "24-Lead Plastic Shrink Small Outline (SS)-5.30 mm Body [SSOP] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SSOP 0.65")
     (property "Sheetfile" "mega65-kbd.kicad_sch")
@@ -777,7 +777,7 @@
 
   (footprint "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm" (layer "F.Cu")
     (tedit 5A02F25C) (tstamp 82f07ba2-f85b-45db-be41-2c51789b87fc)
-    (at 242.824 -18.288)
+    (at 309.626 51.308)
     (descr "24-Lead Plastic Shrink Small Outline (SS)-5.30 mm Body [SSOP] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SSOP 0.65")
     (property "Sheetfile" "mega65-kbd.kicad_sch")
@@ -869,7 +869,7 @@
 
   (footprint "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm" (layer "F.Cu")
     (tedit 5A02F25C) (tstamp fc27a466-ee82-46bd-a8bc-ff9c08660cd2)
-    (at 198.12 -17.526)
+    (at 46.736 130.556)
     (descr "24-Lead Plastic Shrink Small Outline (SS)-5.30 mm Body [SSOP] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SSOP 0.65")
     (property "Sheetfile" "mega65-kbd.kicad_sch")
@@ -961,7 +961,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp 02024256-f036-48c2-921e-2ea167e9279e)
-    (at 28.575 46.0375 180)
+    (at 297.6245 87.63 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -1033,7 +1033,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp 041919eb-da66-4361-aad5-e1281575fad9)
-    (at 128.5875 103.1875 180)
+    (at 197.612 144.78 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -1105,7 +1105,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp 050632f0-0afa-41ca-809a-a3f8ab91085a)
-    (at 14.2875 65.0875 180)
+    (at 311.912 106.68 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -1177,7 +1177,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp 0c4082aa-3ad3-471b-9902-b7db4d78ae94)
-    (at 0 0 180)
+    (at 326.1995 41.5925 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -1249,7 +1249,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp 1194859d-2a93-43f7-a321-022cccce3591)
-    (at 119.0625 84.1375 180)
+    (at 207.137 125.73 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -1321,7 +1321,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp 17732d0f-bbf4-44fe-8f4c-c68337736c17)
-    (at 66.675 46.0375 180)
+    (at 259.5245 87.63 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -1393,7 +1393,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp 207a1279-1bce-466d-8575-3827834746dd)
-    (at 104.775 46.0375 180)
+    (at 221.4245 87.63 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -1465,7 +1465,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp 207f1d76-d463-42fd-84f0-1938a437cf26)
-    (at 285.75 26.9875 180)
+    (at 40.4495 68.58 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -1537,7 +1537,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp 2a677d49-dd21-4f7d-8372-5488865f38bb)
-    (at 171.45 26.9875 180)
+    (at 154.7495 68.58 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -1609,7 +1609,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp 2d2c47bf-f166-4389-af24-25e25c8e33d3)
-    (at 57.15 0 180)
+    (at 269.0495 41.5925 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -1681,7 +1681,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp 2e2e7b4c-071c-473f-9299-f148fd07efc2)
-    (at 109.5375 65.0875 180)
+    (at 216.662 106.68 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -1753,7 +1753,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp 336b067f-008b-4e85-86fe-8563b5c0853b)
-    (at 38.1 26.9875 180)
+    (at 288.0995 68.58 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -1825,7 +1825,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp 36f8800d-ea26-4ff9-9373-14d1dd97ba49)
-    (at 242.8875 103.1875 180)
+    (at 83.312 144.78 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -1897,7 +1897,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp 3dc4a47c-a5e5-4830-af50-fe0cae3a20d4)
-    (at 209.55 26.9875 180)
+    (at 116.6495 68.58 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -1969,7 +1969,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp 41df011a-8ce7-4160-8026-5d1da9360181)
-    (at 190.5 0 180)
+    (at 135.6995 41.5925 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -2041,7 +2041,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp 44041574-5021-4626-9db3-d653f7962de3)
-    (at 214.3125 84.1375 180)
+    (at 111.887 125.73 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -2113,7 +2113,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp 44fe4c65-9a1a-40d9-a38b-64c71ec64abb)
-    (at 242.8875 65.0875 180)
+    (at 83.312 106.68 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -2185,7 +2185,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp 4b88e8b1-f772-431b-8202-30e68fc5d304)
-    (at 42.8625 84.1375 180)
+    (at 283.337 125.73 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -2257,7 +2257,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp 4d78c02c-d590-4099-8eb8-ccf697f7e5e5)
-    (at 90.4875 65.0875 180)
+    (at 235.712 106.68 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -2329,7 +2329,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp 512f6195-d126-4498-a91d-5520cf51a515)
-    (at 266.7 0 180)
+    (at 59.4995 41.5925 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -2401,7 +2401,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp 52b678e9-3436-46df-ac73-3f561edd9735)
-    (at 171.45 0 180)
+    (at 154.7495 41.5925 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -2473,7 +2473,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp 5a48444e-3e39-4b98-8bb9-bb3c784f75ea)
-    (at 76.2 0 180)
+    (at 249.9995 41.5925 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -2545,7 +2545,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp 5c4b9464-ae76-426e-b719-a314a98972e8)
-    (at 95.25 26.9875 180)
+    (at 230.9495 68.58 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -2617,7 +2617,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp 5ff8e4a8-f9e1-4499-ab87-e1b5a7e0c625)
-    (at 200.025 46.0375 180)
+    (at 126.1745 87.63 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -2689,7 +2689,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp 65e63efe-f8bf-4e60-8556-8c054ccd08f6)
-    (at 123.825 46.0375 180)
+    (at 202.3745 87.63 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -2761,7 +2761,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp 6689fd3c-745d-431f-a6fa-22f854ee6477)
-    (at 19.05 84.1375 180)
+    (at 307.1495 125.73 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -2833,7 +2833,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp 673c66a8-f801-4a7d-9be9-b5aa71537ebf)
-    (at 95.25 0 180)
+    (at 230.9495 41.5925 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -2905,7 +2905,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp 68823041-d6dd-426e-9a87-3e183c5e6c5a)
-    (at 219.075 46.0375 180)
+    (at 107.1245 87.63 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -2977,7 +2977,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp 690fc1bc-1335-4a6c-84e2-3debacb9857b)
-    (at -4.7625 65.0875 180)
+    (at 330.962 106.68 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -3049,7 +3049,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp 6b124efa-56ba-469e-83ab-6267018cead1)
-    (at 247.65 26.9875 180)
+    (at 78.5495 68.58 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -3121,7 +3121,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp 6b52e653-d43d-4583-9290-4f7c9c143da2)
-    (at 285.75 0 180)
+    (at 40.4495 41.5925 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -3193,7 +3193,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp 6dc1b0e1-cb3a-42d2-b6ef-5a09fbc22049)
-    (at 204.7875 65.0875 180)
+    (at 121.412 106.68 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -3265,7 +3265,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp 72fc2483-c54e-410c-bf4c-07ceeee2a31b)
-    (at 71.4375 65.0875 180)
+    (at 254.762 106.68 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -3337,7 +3337,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp 72feaa67-f35e-47d5-9224-f38ac65319b6)
-    (at 80.9625 84.1375 180)
+    (at 245.237 125.73 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -3409,7 +3409,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp 83e26224-6e5c-47e5-8369-09d7027e90a0)
-    (at 33.3375 65.0875 180)
+    (at 292.862 106.68 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -3481,7 +3481,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp 8439c470-0d97-4853-a474-65a232b3d802)
-    (at 128.5875 65.0875 180)
+    (at 197.612 106.68 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -3553,7 +3553,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp 92c57b97-0e27-4d66-9447-483879994e81)
-    (at 266.7 65.0875 180)
+    (at 59.4995 106.68 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -3625,7 +3625,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp 997b9676-c743-4f66-b091-ff2b4546ea48)
-    (at 133.35 26.9875 180)
+    (at 192.8495 68.58 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -3697,7 +3697,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp 9988e908-391d-4d98-99d4-20a880ff39a6)
-    (at 147.6375 65.0875 180)
+    (at 178.562 106.68 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -3769,7 +3769,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp 9a2bed63-1d55-4ff4-92f8-15be078af6c0)
-    (at 257.175 46.0375 180)
+    (at 69.0245 87.63 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -3841,7 +3841,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp 9ca9ee0f-d38c-4bc0-86d4-c532a57a3825)
-    (at 266.7 26.9875 180)
+    (at 59.4995 68.58 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -3913,7 +3913,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp 9ec8bcf7-ece0-4990-b152-d26eb7152583)
-    (at 142.875 46.0375 180)
+    (at 183.3245 87.63 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -3985,7 +3985,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp a22897ac-5bc4-42af-8cdb-659998c2c9e1)
-    (at 0 26.9875 180)
+    (at 326.1995 68.58 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -4057,7 +4057,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp a4382fc8-a226-4754-90e4-ae5f00f79515)
-    (at 161.925 46.0375 180)
+    (at 164.2745 87.63 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -4129,7 +4129,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp a62a7ce7-f778-4632-9208-468379e1911e)
-    (at 280.9875 103.1875 180)
+    (at 45.212 144.78 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -4201,7 +4201,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp a8b05049-b0e2-451b-8aa6-4098aeeac618)
-    (at 166.6875 65.0875 180)
+    (at 159.512 106.68 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -4273,7 +4273,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp ab668d0a-59e6-4af8-a171-4167b99ed0fd)
-    (at 19.05 26.9875 180)
+    (at 307.1495 68.58 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -4345,7 +4345,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp abec9c92-8f41-4fd9-9172-21b2e676c6b5)
-    (at 190.5 26.9875 180)
+    (at 135.6995 68.58 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -4417,7 +4417,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp b1e1c28c-188f-405d-b44f-fcebe17a184f)
-    (at 85.725 46.0375 180)
+    (at 240.4745 87.63 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -4489,7 +4489,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp b2b1f923-0ed0-4976-b51b-1a7944c7a14a)
-    (at 76.2 26.9875 180)
+    (at 249.9995 68.58 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -4561,7 +4561,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp b752bf9c-9a1c-4c67-858b-e41aff4ae037)
-    (at 114.3 26.9875 180)
+    (at 211.8995 68.58 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -4633,7 +4633,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp b7cfff9c-558c-42cb-9244-dfe3571a22f7)
-    (at 180.975 46.0375 180)
+    (at 145.2245 87.63 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -4705,7 +4705,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp b9892bd7-8779-40ca-91d2-88b30136998b)
-    (at 157.1625 84.1375 180)
+    (at 169.037 125.73 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -4777,7 +4777,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp bc14f366-dc05-4b1e-a296-25642d21e1c4)
-    (at 152.4 26.9875 180)
+    (at 173.7995 68.58 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -4849,7 +4849,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp c0207a52-289c-4c69-bd04-3a54dd39fb02)
-    (at 261.9375 84.1375 180)
+    (at 64.262 125.73 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -4921,7 +4921,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp c0d36810-52a6-4d9a-a812-285c00cbede2)
-    (at 100.0125 84.1375 180)
+    (at 226.187 125.73 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -4993,7 +4993,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp c4e61663-7bf5-47de-9289-e4dec22b0fe8)
-    (at 57.15 26.9875 180)
+    (at 269.0495 68.58 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -5065,7 +5065,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp c5db86d2-4c61-4297-a4af-e324e25bad5b)
-    (at 223.8375 65.0875 180)
+    (at 102.362 106.68 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -5137,7 +5137,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp c69cbe83-e337-41ea-bbe1-7d847abd3daf)
-    (at -4.7625 84.1375 180)
+    (at 330.962 125.73 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -5209,7 +5209,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp c8e76efa-4777-41f2-9b9e-1f5ef82d1a2f)
-    (at 138.1125 84.1375 180)
+    (at 188.087 125.73 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -5281,7 +5281,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp cf95f476-989b-4b77-98fc-ac2b0bdaf27e)
-    (at 228.6 26.9875 180)
+    (at 97.5995 68.58 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -5353,7 +5353,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp d03c5efd-0087-4651-bea2-3d6e901baddf)
-    (at 52.3875 65.0875 180)
+    (at 273.812 106.68 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -5425,7 +5425,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp d3ac380a-5320-4eae-a08e-7203e284693b)
-    (at 261.9375 103.1875 180)
+    (at 64.262 144.78 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -5497,7 +5497,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp d514893a-605d-468c-8a56-304d0df8b8f8)
-    (at 280.9875 46.0375 180)
+    (at 45.212 87.63 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -5569,7 +5569,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp d62d7753-db70-49e1-b318-6050b55064cc)
-    (at 133.35 0 180)
+    (at 192.8495 41.5925 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -5641,7 +5641,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp d6981307-634e-41b7-926c-7d83bb359452)
-    (at 195.2625 84.1375 180)
+    (at 130.937 125.73 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -5713,7 +5713,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp d841c7b0-249f-46f9-bbe4-a365ee14c7cb)
-    (at 47.625 46.0375 180)
+    (at 278.5745 87.63 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -5785,7 +5785,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp da992bc5-c701-4424-8e78-8a6879bf9115)
-    (at 61.9125 84.1375 180)
+    (at 264.287 125.73 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -5857,7 +5857,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp dde0aa66-bb55-4dbd-ab4e-e7492b191865)
-    (at 228.6 0 180)
+    (at 97.5995 41.5925 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -5929,7 +5929,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp df6088ca-2c7f-4b6e-8896-afbda850b83d)
-    (at 4.7625 46.0375 180)
+    (at 321.437 87.63 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -6001,7 +6001,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp dfd8ee28-5d02-4e16-8bf9-4a5f0f17129e)
-    (at 238.125 84.1375 180)
+    (at 88.0745 125.73 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -6073,7 +6073,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp e48a7fd5-bb11-4934-a605-095dcace986f)
-    (at 38.1 0 180)
+    (at 288.0995 41.5925 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -6145,7 +6145,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp e4e1f295-8ea8-4acf-a955-f93e71fff814)
-    (at 185.7375 65.0875 180)
+    (at 140.462 106.68 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -6217,7 +6217,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp e88e83d9-281c-4389-bddb-0a62882ef3e0)
-    (at 247.65 0 180)
+    (at 78.5495 41.5925 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -6289,7 +6289,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp eb286618-db25-4bfb-b70c-e2bacd118078)
-    (at 152.4 0 180)
+    (at 173.7995 41.5925 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -6361,7 +6361,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp ee1027d7-e4a1-438e-b65f-4608b68300d6)
-    (at 176.2125 84.1375 180)
+    (at 149.987 125.73 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -6433,7 +6433,7 @@
 
   (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (layer "B.Cu")
     (tedit 635C700F) (tstamp fbf7d4a9-00c3-430b-957f-bff3b497e2ac)
-    (at 238.125 46.0375 180)
+    (at 88.0745 87.63 180)
     (descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 1u PCB")
     (property "Sheetfile" "keyswitches.kicad_sch")
@@ -6501,6 +6501,47 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+  )
+
+  (gr_line (start 346.5068 162.179) (end 346.5068 23.749) (layer "Edge.Cuts") (width 0.1) (tstamp 3cea1ba9-040a-4376-9958-b737b41d1644))
+  (gr_line (start 25.8318 23.749) (end 346.5068 23.749) (layer "Edge.Cuts") (width 0.1) (tstamp 55aa4a33-9585-450e-bf61-c8a1ab5d1ba7))
+  (gr_line (start 25.8318 162.19424) (end 25.8318 23.749) (layer "Edge.Cuts") (width 0.1) (tstamp e1187570-a7a8-45af-b1c6-dc5a0789e6dc))
+  (gr_line (start 25.8318 162.179) (end 346.5068 162.179) (layer "Edge.Cuts") (width 0.1) (tstamp fe41d6d0-0b6b-4ef0-b987-0d82ecf2312e))
+  (dimension (type aligned) (layer "Edge.Cuts") (tstamp 3d3d7213-a5df-410b-a50d-ddea5aae0a3f)
+    (pts (xy 41.656 41.656) (xy 25.781 41.656))
+    (height 2.032)
+    (gr_text "0.6250 in" (at 33.7185 38.474) (layer "Edge.Cuts") (tstamp e346443b-d46b-454f-9c62-020627fcaf2f)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (format (units 3) (units_format 1) (precision 4))
+    (style (thickness 0.1) (arrow_length 1.27) (text_position_mode 0) (extension_height 0.58642) (extension_offset 0.5) keep_text_aligned)
+  )
+  (dimension (type aligned) (layer "Edge.Cuts") (tstamp 763828b1-4e9c-425f-9716-4d5291293e77)
+    (pts (xy 43.942 155.829) (xy 43.942 162.179))
+    (height 0)
+    (gr_text "0.2500 in" (at 42.792 159.004 90) (layer "Edge.Cuts") (tstamp abb46c0d-a637-4447-bbdf-7399a14f14dd)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (format (units 3) (units_format 1) (precision 4))
+    (style (thickness 0.1) (arrow_length 1.27) (text_position_mode 0) (extension_height 0.58642) (extension_offset 0.5) keep_text_aligned)
+  )
+  (dimension (type aligned) (layer "Edge.Cuts") (tstamp c0c93c11-0bb4-447d-9a17-d10021d70fd5)
+    (pts (xy 326.136 42.799) (xy 326.136 23.749))
+    (height 0)
+    (gr_text "0.7500 in" (at 324.986 33.274 90) (layer "Edge.Cuts") (tstamp 3ab08f07-446c-4319-bb31-e6ed506f2d0a)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (format (units 3) (units_format 1) (precision 4))
+    (style (thickness 0.1) (arrow_length 1.27) (text_position_mode 0) (extension_height 0.58642) (extension_offset 0.5) keep_text_aligned)
+  )
+  (dimension (type aligned) (layer "Edge.Cuts") (tstamp f565919a-4454-4d27-baec-b69df6bde727)
+    (pts (xy 333.756 44.069) (xy 346.456 44.069))
+    (height -0.635)
+    (gr_text "0.5000 in" (at 340.106 42.284) (layer "Edge.Cuts") (tstamp 76b07529-5820-447f-923e-0a0d45f94ffe)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (format (units 3) (units_format 1) (precision 4))
+    (style (thickness 0.1) (arrow_length 1.27) (text_position_mode 0) (extension_height 0.58642) (extension_offset 0.5) keep_text_aligned)
   )
 
 )
