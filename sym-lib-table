@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name "00Project-LEDs")(type "KiCad")(uri "${KIPRJMOD}/library/RGBK_LED.kicad_sym")(options "")(descr ""))
   (lib (name "00Project-CherryMX")(type "Legacy")(uri "${KIPRJMOD}/library/kicad-libraries/symbols/CherryMX.lib")(options "")(descr ""))
+  (lib (name "00Project-mega65logo")(type "KiCad")(uri "${KIPRJMOD}/library/mega65-logo.kicad_sym")(options "")(descr ""))
 )
