@@ -1,0 +1,6 @@
+[submodule "library/Buttons_Switches_Keyboard.pretty"]
+	path = library/Buttons_Switches_Keyboard.pretty
+	url = git@github.com:KiCad/Buttons_Switches_Keyboard.pretty.git
+[submodule "library/kicad-libraries"]
+	path = library/kicad-libraries
+	url = git@github.com:sszczep/kicad-libraries.git

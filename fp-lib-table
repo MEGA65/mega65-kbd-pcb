@@ -1,3 +1,5 @@
 (fp_lib_table
   (lib (name "00Project-LEDs")(type "KiCad")(uri "${KIPRJMOD}/library")(options "")(descr ""))
+  (lib (name "00Project-KeySwitches")(type "KiCad")(uri "${KIPRJMOD}/library/Buttons_Switches_Keyboard.pretty")(options "")(descr ""))
+  (lib (name "00Project-CherryMX")(type "KiCad")(uri "${KIPRJMOD}/library/kicad-libraries/footprints/CherryMX_PCB_KailhSocket_LED.pretty")(options "")(descr ""))
 )
