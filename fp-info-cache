@@ -1,4 +1,4 @@
-20182035467863858
+20183702492167290
 00Project-CherryMX
 CherryMX_1.00u_PCB_KailhSocket_LED
 Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: 2 pin LED
@@ -293,6 +293,13 @@ Resistor Box series Radial pin pitch 5.08mm 0.5W = 1/2W length 8.38mm width 2.54
 0
 2
 2
+00Project-LEDs
+MEGA65-logo
+
+
+0
+0
+0
 00Project-LEDs
 Wuerth-RGB-LED-156120M173000
 RGB LED 3.2x2.7mm http://www.avagotech.com/docs/AV02-0610EN

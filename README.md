@@ -48,6 +48,8 @@ But the general tips apply:
 
 This PCB design is (C) Copyright Paul Gardner-Stephen, 2022, and is offered to you under the CC-BY-SA 4.0 license.
 
+Open Hardware Certification has been applied for.
+
 ## Need help?
 
 Go to https://mega65.org, and find the link to our Discord server, and ask the friendly community there for any help you might need.
