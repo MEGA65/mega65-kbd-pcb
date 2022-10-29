@@ -562,6 +562,35 @@
         )
       )
     )
+    (symbol "Mechanical:MountingHole" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+      (property "Reference" "H" (id 0) (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "MountingHole" (id 1) (at 0 3.175 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (id 3) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "mounting hole" (id 4) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Mounting Hole without connection" (id 5) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "MountingHole*" (id 6) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "MountingHole_0_1"
+        (circle (center 0 0) (radius 1.27)
+          (stroke (width 1.27) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+      )
+    )
     (symbol "power:+3.3V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -786,8 +815,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2fa2dd2c-1a9c-42fa-b597-0349f50d6d18)
   )
-  (text "PCAL6416AFH are about $2, have 16 GPIOs,\nand support 400KHz. We'd love to use them for\nall signals, but they have only 1 address\nselection bit, so we can only use 2 of them.\nOh well.\n\nTheir 7-bit I2C addresses will be: 010000x"
-    (at 16.51 180.34 0)
+  (text "PCAL6416AFH are about $2, have 16 GPIOs,\nand support 400KHz. We'd love to use them for\nall signals, but they have only 1 address\nselection bit, so we can only use 2 of them.\nOh well."
+    (at 16.51 190.5 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5e6c3bf3-d8e6-420a-8368-4a21d87d53a8)
   )
@@ -1512,6 +1541,23 @@
     (pin "2" (uuid 21d3c274-3222-4cd8-a021-3e683b4c79c8))
   )
 
+  (symbol (lib_id "Mechanical:MountingHole") (at 20.32 144.78 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 0918924e-0611-43f1-a892-d4753dcdcb79)
+    (property "Reference" "H3" (id 0) (at 22.86 143.5099 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (id 1) (at 22.86 146.0499 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (id 2) (at 20.32 144.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 20.32 144.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
   (symbol (lib_id "power:+3.3V") (at 119.38 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 100cd23b-601b-476f-99f2-4b2689a1e9cd)
@@ -1526,6 +1572,23 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid fe482134-26c6-48ff-9d63-78164f28fe94))
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 20.32 132.08 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 124d5326-9b8b-47c4-8871-99ccb8d66c63)
+    (property "Reference" "H1" (id 0) (at 22.86 130.8099 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (id 1) (at 22.86 133.3499 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (id 2) (at 20.32 132.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 20.32 132.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
 
   (symbol (lib_id "00Project-LEDs:R") (at 33.02 58.42 90) (unit 1)
@@ -2078,6 +2141,23 @@
     (pin "1" (uuid a2990f93-5e6d-470a-9d2e-c1b74322bb46))
   )
 
+  (symbol (lib_id "Mechanical:MountingHole") (at 20.32 157.48 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 9aa97e19-aa95-4926-9042-8d5a768d7ae2)
+    (property "Reference" "H5" (id 0) (at 22.86 156.2099 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (id 1) (at 22.86 158.7499 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (id 2) (at 20.32 157.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 20.32 157.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
   (symbol (lib_id "Interface_Expansion:TCA9555DBR") (at 78.74 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 9deb4112-4a35-4ced-ab18-54b51e81e3e7)
@@ -2133,6 +2213,23 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid afcc3f85-cf50-49a0-bd32-ae6be149f4b6))
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 20.32 138.43 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid a13f1849-402b-45f9-ae91-2adbf4d608fd)
+    (property "Reference" "H2" (id 0) (at 22.86 137.1599 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (id 1) (at 22.86 139.6999 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (id 2) (at 20.32 138.43 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 20.32 138.43 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
 
   (symbol (lib_id "power:GND") (at 251.46 160.02 0) (unit 1)
@@ -2325,6 +2422,23 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c3890a26-052e-4527-a902-488179943766))
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 20.32 151.13 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid da5076d5-80e2-40a7-aa46-eb5426ac4563)
+    (property "Reference" "H4" (id 0) (at 22.86 149.8599 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (id 1) (at 22.86 152.3999 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (id 2) (at 20.32 151.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 20.32 151.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
 
   (symbol (lib_id "power:+3.3V") (at 251.46 149.86 0) (unit 1)
@@ -2635,7 +2749,7 @@
     (path "/1133795d-f557-4688-983a-a9c8d390f39a/bc40856b-fdb1-47b0-b68f-64717b1a66b4"
       (reference "#PWR041") (unit 1) (value "GND") (footprint "")
     )
-    (path "/1133795d-f557-4688-983a-a9c8d390f39a/80e08fb4-b927-4436-89cf-b7856133a6f3"
+    (path "/1133795d-f557-4688-983a-a9c8d390f39a/c0e226d7-e700-45f8-80f7-4dd1e1aebfb1"
       (reference "#PWR042") (unit 1) (value "GND") (footprint "")
     )
     (path "/1133795d-f557-4688-983a-a9c8d390f39a/7c60a5d1-433f-4c74-ab91-51ee4b9834a7"
@@ -2653,7 +2767,7 @@
     (path "/1133795d-f557-4688-983a-a9c8d390f39a/d8e827ad-0dc3-4b24-a365-fe42296ad40a"
       (reference "#PWR047") (unit 1) (value "GND") (footprint "")
     )
-    (path "/1133795d-f557-4688-983a-a9c8d390f39a/c0e226d7-e700-45f8-80f7-4dd1e1aebfb1"
+    (path "/1133795d-f557-4688-983a-a9c8d390f39a/80e08fb4-b927-4436-89cf-b7856133a6f3"
       (reference "#PWR048") (unit 1) (value "GND") (footprint "")
     )
     (path "/1133795d-f557-4688-983a-a9c8d390f39a/620269f2-f241-4ec7-94df-f960857c4869"
@@ -2851,6 +2965,21 @@
     (path "/c82ae12a-29c1-4674-9fd8-baa8cdc908ab"
       (reference "D4") (unit 1) (value "LED_ARGB") (footprint "")
     )
+    (path "/124d5326-9b8b-47c4-8871-99ccb8d66c63"
+      (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
+    )
+    (path "/a13f1849-402b-45f9-ae91-2adbf4d608fd"
+      (reference "H2") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
+    )
+    (path "/0918924e-0611-43f1-a892-d4753dcdcb79"
+      (reference "H3") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
+    )
+    (path "/da5076d5-80e2-40a7-aa46-eb5426ac4563"
+      (reference "H4") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
+    )
+    (path "/9aa97e19-aa95-4926-9042-8d5a768d7ae2"
+      (reference "H5") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
+    )
     (path "/27564ffc-d2cc-40fd-b625-91750e2cd8be"
       (reference "J1") (unit 1) (value "Conn_02x05_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical")
     )
@@ -2944,8 +3073,8 @@
     (path "/1133795d-f557-4688-983a-a9c8d390f39a/4dc36c41-daea-497e-b350-4532f043fca4"
       (reference "U16") (unit 1) (value "KEY_LSHIFT") (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED")
     )
-    (path "/1133795d-f557-4688-983a-a9c8d390f39a/5d910524-9383-47b0-8af4-d4bba29cb4ed"
-      (reference "U17") (unit 1) (value "KEY_ALT") (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED")
+    (path "/1133795d-f557-4688-983a-a9c8d390f39a/e4c5ce05-c1b2-49c7-bcc2-dbb646f84107"
+      (reference "U17") (unit 1) (value "KEY_ESC") (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED")
     )
     (path "/1133795d-f557-4688-983a-a9c8d390f39a/8c1dc3b6-4e09-4f36-b17a-0bce0bfe7617"
       (reference "U18") (unit 1) (value "KEY_>") (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED")
@@ -2962,8 +3091,8 @@
     (path "/1133795d-f557-4688-983a-a9c8d390f39a/c749cbdc-651f-49a4-8335-01b826ee0811"
       (reference "U22") (unit 1) (value "KEY_Z") (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED")
     )
-    (path "/1133795d-f557-4688-983a-a9c8d390f39a/e4c5ce05-c1b2-49c7-bcc2-dbb646f84107"
-      (reference "U23") (unit 1) (value "KEY_ESC") (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED")
+    (path "/1133795d-f557-4688-983a-a9c8d390f39a/5d910524-9383-47b0-8af4-d4bba29cb4ed"
+      (reference "U23") (unit 1) (value "KEY_ALT") (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED")
     )
     (path "/1133795d-f557-4688-983a-a9c8d390f39a/699ec266-7460-4ffd-ae43-00fad0b7b0d0"
       (reference "U24") (unit 1) (value "KEY_0") (footprint "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED")
