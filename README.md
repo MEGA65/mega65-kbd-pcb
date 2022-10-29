@@ -34,6 +34,8 @@ After that, you will need:
 1x 10-pin 2x5 2.54mm male pin header.
 1x 4-pin 1x4 2.54mm male pin header, if you want to attach the optional GPIO header (it isn't used for anything right now).
 
+... and a set of MEGA65 keycaps, or some other key caps to make do until we find a way to make the proper caps available.
+
 ## Any tips for assembly?
 
 This is a new design, and we will update the instructions once we have built one.  
