@@ -36,6 +36,11 @@ After that, you will need:
 
 ... and a set of MEGA65 keycaps, or some other key caps to make do until we find a way to make the proper caps available.
 
+Once built, you will need to consider if you need a metal plate to further stabilise they keyboard, although if you use the
+key switches intended for PCB mount, this should not be a problem.  What you will likely need are some spacers, yet to be
+exactly determined, to provide the correct set-back of the PCB in a MEGA65 top-case. Again, once we have built and tested 
+one of these ourselves, we will update the info here with more details.
+
 ## Any tips for assembly?
 
 This is a new design, and we will update the instructions once we have built one.  
