@@ -3124,7 +3124,7 @@
     (uuid bcd90845-0fde-4a5e-a658-1b24d10648ed)
     (property "Reference" "U62" (id 0) (at 193.675 129.54 0))
     (property "Value" "KEY_RETURN" (id 1) (at 193.675 132.08 0))
-    (property "Footprint" "00Project-KeySwitches:SW_Cherry_MX1A_1.00u_PCB_LED" (id 2) (at 194.31 138.43 0)
+    (property "Footprint" "00Project-KeySwitches:SW_Cherry_MX1A_2.00u_PCB" (id 2) (at 194.31 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 194.31 138.43 0)
