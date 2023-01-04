@@ -42,6 +42,11 @@ Note that for the cleaning part, I had to raise the iron temperature to 400°C.
 And afterwards, my tip was so burnt it needed a lot of regenerative cleaning... 
 4. Repeat the process for all the other chips.
 
+#### Remark
+
+For those who are lucky enough to have a hot air soldering station, you will obviously get easier and cleaner results.\
+[![Soldered with a hot air repair station](images/small/mega65-kbd-pca9555-heatgun-soldered.png)](images/mega65-kbd-pca9555-heatgun-soldered.png)
+
 ### 2.3 The resistors
 
 1. Prepare your resistor by bending their leads to around 10mm apart.\
@@ -55,6 +60,10 @@ Recommended tip temperature : between 250°C and 300°C
 
 ### 2.4 The connectors
 
+1. Place the 2 connectors on the back side of the board.\
+[![Place the connectors](images/small/mega65-kbd-connectors-placed.png)](images/mega65-kbd-connectors-placed.png)
+2. Solder them by starting with one pin while holding it.
+
 ### 2.5 The key switches
 
 1. Place the standard key switches of your choice on the front side of the board, leaving out the Caps Lock and Shift Lock free.\
@@ -67,11 +76,14 @@ Place the two "clicky" key switches at the Caps Lock and Shift Lock positions.\
 3. Solder all the contacts.\
 [![Key switches soldered](images/small/mega65-kbd-keys-soldered.png)](images/mega65-kbd-keys-soldered.png)
 
+And voilà, you have hopefully a brand new working MEGA65 keyboard ready to serve.\
+[![Keyboard complete](images/small/mega65-kbd-board-complete-less-lock-leds.png)](images/mega65-kbd-board-complete-less-lock-leds.png)
+
 ### 2.6 Now is a good time to test the keyboard
 
-Now that all major components are in place, you can hook up the keyboard with a 10 conductors flat cable to your MEGA65 board or your DIY FPGA board.
+Now that all major components are in place, you can hook up the keyboard with a 10 conductors flat cable to your NEXYS4 or other supported FPGA development board running the MEGA65 core.
 
-Start your MEGA65 and check that the new keyboard has been detected.
+Start your board and check that the new keyboard has been detected.
 Go to the keyboard test utility (hold Alt at power up and select **3. KEYBOARD TEST**), and try every key.
 
 ### 2.7 The "lock" switches LEDs
