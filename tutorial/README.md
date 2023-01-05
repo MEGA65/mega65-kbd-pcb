@@ -81,7 +81,8 @@ And voilà, you have hopefully a brand new working MEGA65 keyboard ready to serv
 
 ### 2.6 Now is a good time to test the keyboard
 
-Now that all major components are in place, you can hook up the keyboard with a 10 conductors flat cable to your NEXYS4 or other supported FPGA development board running the MEGA65 core.
+Now that all major components are in place, you can hook up the keyboard with a 10 conductors flat cable to your NEXYS4 or other supported FPGA development board running the MEGA65 core.\
+[![Connect to the NEXYS4](images/small/mega65-kbd-to-nexys-flat-to-pmodC.png)](images/mega65-kbd-to-nexys-flat-to-pmodC.png)
 
 Start your board and check that the new keyboard has been detected.
 Go to the keyboard test utility (hold Alt at power up and select **3. KEYBOARD TEST**), and try every key.
